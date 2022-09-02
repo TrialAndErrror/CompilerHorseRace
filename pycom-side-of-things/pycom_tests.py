@@ -1,53 +1,8 @@
-"""
-Testing utilities for PyCom
-"""
 import random
 
-"""
-Supported Features
+HORSES = ['Epona','Torrent','Roach','Shadowmere','Chestnut','Red Hare','Agro','Invincible','Rapidash','Buck']
 
-    All 'turing complete' features of Python: if, else, for, while, etc.
-    f'' strings
-    Some in built functions
-    Some math library functions
-    List comprehensions
-    Python-style arbitarily large intergers
-
-Not supported yet
-
-    Pythonic ways of writing certain blocks (one line if...else, etc.)
-    Multi-line string literals
-    A lot of libraries included in stdlib
-    Classes
-    The throw and finally keywords
-    Heterogeneous lists; lists with more than one data type in them
-"""
-
-HORSES = [
-    'Epona',
-    'Torrent',
-    'Roach',
-    'Shadowmere',
-    'Chestnut',
-    'Red Hare',
-    'Agro',
-    'Invincible',
-    'Rapidash',
-    'Buck'
-]
-
-WINNERS = {
-    'Epona': 0,
-    'Torrent': 0,
-    'Roach': 0,
-    'Shadowmere': 0,
-    'Chestnut': 0,
-    'Red Hare': 0,
-    'Agro': 0,
-    'Invincible': 0,
-    'Rapidash': 0,
-    'Buck': 0,
-}
+WINNERS = {'Epona': 0,'Torrent': 0,'Roach': 0,'Shadowmere': 0,'Chestnut': 0,'Red Hare': 0,'Agro': 0,'Invincible': 0,'Rapidash': 0,'Buck': 0}
 
 
 def simulate_race():

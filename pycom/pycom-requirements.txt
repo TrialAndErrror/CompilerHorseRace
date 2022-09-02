@@ -1,2 +1,0 @@
-colorama==0.4.5
--e git+https://github.com/Omyyyy/pycom.git@e4107592dcedb12ab96d483fb5c18517510d8ca1#egg=pycom
